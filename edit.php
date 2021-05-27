@@ -27,7 +27,7 @@ $data = $model->edit_absen($id_absen);?>
 		<br>
 		<label>Tanggal Absen</label>
 		<br>
-		<input type="text" name="tgl_absen" value="<?php echo $data->tgl_absen ?>">
+		<input type="date" name="tgl_absen" value="<?php echo $data->tgl_absen ?>">
 		<br>
 		<label>Absen Masuk</label>
 		<br>
@@ -49,7 +49,7 @@ $data = $model->edit_absen($id_absen);?>
 		<br>
 		<input type="text" name="kelas_sesi" value="<?php echo $data->kelas_sesi ?>">
 		<br><br>
-		<button type="submit" name="submit_edit">Submit</button>
+		<button type="submit" name="submit_edit_absen">Submit</button>
 	</form>
 </body>
 </html>

@@ -14,7 +14,7 @@
             <br> 
             <label>Tanggal Absen</label> 
             <br> 
-            <input type="text" name="tgl_absen"> 
+            <input type="date" name="tgl_absen"> 
             <br> 
             <label>Absen Masuk</label> 
             <br> 
